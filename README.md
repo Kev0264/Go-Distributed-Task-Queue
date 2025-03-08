@@ -19,17 +19,20 @@ Workers pull tasks from the queue and process them
 1. Start the Task Queue:
 
 ```
-go run queue/queue.go
+cd queue
+go run queue.go
 ```
 
 2. Start the Workers:
 
 ```
-go run worker/worker.go
+cd worker
+go run worker.go
 ```
 
 3. Start the Task Producer:
 
 ```
-go run producer/producer.go
+cd producer
+go run producer.go
 ```
